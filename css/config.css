@@ -59,7 +59,7 @@
     --bringer-s-box-shadow: #07090D10;
 
     /* The cursor-followed backlight color. It uses the primary backlight color */
-    --bringer-s-cursor-light: var(--bringer-s-backlight);
+    --bringer-s-cursor-light: var( --bringer-button-hover-bg);
     
     /* A horizontal side-fade gradient border color */
     --bringer-c-border-gradient: linear-gradient(to left, transparent, var(--bringer-s-border), transparent); 
