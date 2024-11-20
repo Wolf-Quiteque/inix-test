@@ -508,61 +508,25 @@
         
 
             <!-- Section: CTA Form -->
-            <section class="backlight-top is-fullwidth">
-                <div class="stg-row stg-valign-middle stg-cta-with-image stg-tp-column-reverse">
-                    <div class="stg-col-5" data-unload="fade-left">
-                        <div class="bringer-offset-image" data-bg-src="img/cta/contact-section-bg.jpg" data-appear="fade-up" data-threshold="0.25"></div>
-                        <form action="https://demo.shadow-themes.com/html/bringer/mail.php" method="post" class="bringer-contact-form bringer-block" data-fill-error="Por favor, preencha o formulário de contato." data-appear="fade-right" data-threshold="0.25">
-                            <div class="bringer-form-content">
-                                <!-- Campo: Nome -->
-                                <label for="name">Seu Nome</label>
-                                <input type="text" id="name" name="name" placeholder="Seu Nome" required>
-                                <!-- Campo: Email -->
-                                <label for="email">Seu Email</label>
-                                <input type="email" id="email" name="email" placeholder="email@example.com" required>    
-                                <!-- Campo: Mensagem -->
-                                <label for="message">Sua Mensagem</label>
-                                <textarea id="message" name="message" placeholder="Sua Mensagem" required></textarea>
-                                <!-- Botão do Formulário -->
-                                <button type="submit" value="Send Message" style="color: #1A1D24;">Enviar</button>
-                                <div class="bringer-contact-form__response"></div>
+            <section data-padding="bottom">
+                <div class="bringer-masked-cta bringer-masked-block" data-unload="fade-down">
+                    <form action="https://demo.shadow-themes.com/html/bringer/mail-short.php" method="post" data-fill-error="Please, fill out the form." class="bringer-contact-form is-short bringer-masked-media" data-appear="fade-up">
+                        <div class="bringer-form-content bringer-cta-form">
+                            <div class="bringer-cta-form-content" data-appear="fade-up" data-delay="100">
+                                <div class="bringer-cta-title" style="color: #1A1D24;">Pronto para incendiar sua Marca?</div>
+                                <input type="email" id="subscribe_email" name="subscribe_email" style="color: #1A1D24;" placeholder="email@example.com" required>
                             </div>
-                            <span class="bringer-form-spinner"></span>
-                        </form>
-                    </div>
-                    <div class="stg-col-6 stg-offset-1" data-unload="fade-right">
-                        <div class="bringer-cta-form-content">
-                            <div class="bringer-cta-form-title" data-split-appear="fade-up" data-split-delay="100" data-split-by="line">
-                                Vamos discutir seu próximo projeto criativo.
+                            <div class="bringer-cta-form-button" data-appear="fade-up" data-delay="200">
+                                <button style="background-color: #1A1D24;" type="submit">
+                                    <span class="bringer-icon bringer-icon-arrow-submit"></span>
+                                </button>
                             </div>
-                            <div class="bringer-cta-text">
-                                <div class="stg-row stg-valign-middle">
-                                    <div class="stg-col-2 stg-offset-2 stg-tp-col-1 stg-tp-offset-3 stg-m-col-1 stg-m-offset-2" data-appear="fade-right">
-                                        <i class="bringer-cta-icon"></i>
-                                    </div>
-                                    <div class="stg-col-8 stg-tp-col-7 stg-m-col-8 stg-m-offset-1" data-appear="fade-left">
-                                        <p class="bringer-large-text">Ajudamos agências criativas, designers e outras pessoas criativas a mostrar seu trabalho perfeito.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bringer-cta-counters bringer-grid-3cols bringer-m-grid-3cols" data-stagger-appear="fade-up" data-stagger-delay="100">
-                                <!-- Item do Contador -->
-                                <div class="bringer-counter bringer-small-counter" data-delay="3000">
-                                    <div class="bringer-counter-number">300</div>
-                                    <div class="bringer-counter-label">Projetos Realizados</div>
-                                </div><!-- .bringer-counter -->
-                                <!-- Item do Contador -->
-                                <div class="bringer-counter bringer-small-counter" data-delay="3000">
-                                    <div class="bringer-counter-number" data-suffix="K+">100</div>
-                                    <div class="bringer-counter-label">Clientes Satisfeitos</div>
-                                </div><!-- .bringer-counter -->
-                                <!-- Item do Contador -->
-                                <div class="bringer-counter bringer-small-counter" data-delay="3000">
-                                    <div class="bringer-counter-number" data-suffix="+">2</div>
-                                    <div class="bringer-counter-label">Anos de Trabalho</div>
-                                </div><!-- .bringer-counter -->
-                            </div>
+                            <div class="bringer-contact-form__response"></div>
                         </div>
+                        <span class="bringer-form-spinner"></span>
+                    </form>
+                    <div class="bringer-masked-cta-content bringer-masked-content at-top-right">
+                        <p class="bringer-large-text" data-appear="fade-down">Vamos criar uma identidade visual que acenda paixão e lealdade. ✨</p>
                     </div>
                 </div>
             </section>
