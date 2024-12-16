@@ -2012,7 +2012,8 @@ ul.bringer-socials-list.stg-xl-gap {
     mask-repeat: no-repeat;
     mask-size: contain;
     mask-position: center;
-    background: var(--bringer-s-heading);
+    
+    background: #1A1D24;
     display: block;
     width: 24px;
     height: 24px;
@@ -3945,9 +3946,14 @@ button.pswp__button.bringer-pswp-next::after {
     }
     .bringer-socials-list a:hover {
         background-color: var(--bringer-s-accent);
+        
     }
     .bringer-socials-list a:hover::before {
         opacity: 0.15;
+    }
+
+    .bringer-socials-list a:hover i {
+        background-color:#1A1D24
     }
     
     /* --- Block --- */
